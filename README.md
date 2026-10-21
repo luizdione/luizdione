@@ -31,11 +31,9 @@ I believe the next generation of biological discoveries will emerge from the int
 
 # 🔬 Research Areas
 
-* 🧬 Bioinformatics
 * 🧬 Computational Biology
-* 🧬 Functional Genomics
+* 🧬 Functional Genomics/Epigenetics
 * 🧬 Multi-omics Integration
-* 🧬 Epigenetics
 * 🧬 Comparative Genomics
 * 🧬 Variant Discovery
 * 🦠 *Trypanosoma cruzi*
@@ -46,8 +44,6 @@ I believe the next generation of biological discoveries will emerge from the int
 * 🤖 Artificial Intelligence for Science
 * 🧠 Large Language Models
 * 📊 Data Science
-* 🐳 Scientific Containers
-* 🔁 Reproducible Research
 * 🌍 Open Science
 
 ---
@@ -57,7 +53,6 @@ I believe the next generation of biological discoveries will emerge from the int
 ## 🧠 Claude Environment Manager (CEM)
 
 An open-source environment manager for Claude Desktop focused on persistent project memory, automation, reproducible workflows and AI-assisted software development.
-
 ---
 
 ## 🤖 Scientific AI Agents
