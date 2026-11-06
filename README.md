@@ -2,7 +2,7 @@
 
 # 🧬 Luiz Dione
 
-### Computational Biologist • Bioinformatician • AI Researcher • Scientific Software Engineer
+### Bioinformatician • AI Researcher • Scientific Software Engineer
 
 *Building open-source technologies for computational biology, genomics and AI-assisted scientific discovery.*
 
