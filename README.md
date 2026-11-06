@@ -32,22 +32,15 @@ I believe the next generation of biological discoveries will emerge from the int
 # 🔬 Research Areas
 
 * 🧬 Computational Biology
-* 🧬 Functional Genomics/Epigenetics
 * 🧬 Multi-omics Integration
-* 🧬 Comparative Genomics
-* 🧬 Variant Discovery
 * 🦠 *Trypanosoma cruzi*
 * 🐄 Livestock Genomics
-* 🌡️ Thermotolerance Genetics
 * 🧪 Molecular Docking
-* ⚛️ Molecular Dynamics
 * 🤖 Artificial Intelligence for Science
-* 🧠 Large Language Models
 * 📊 Data Science
 * 🌍 Open Science
 
 ---
-
 # 🚀 Featured Projects
 
 ## 🧠 Claude Environment Manager (CEM)
@@ -63,7 +56,6 @@ Development of autonomous AI agents capable of assisting researchers with:
 * Experimental planning
 * Programming
 * Bioinformatics analyses
-* Scientific writing
 * Workflow automation
 ---
 
@@ -71,10 +63,6 @@ Development of autonomous AI agents capable of assisting researchers with:
 
 Collection of reproducible computational workflows for:
 
-* Whole Genome Sequencing
-* RNA-seq
-* DNA Methylation
-* Functional Annotation
 * Comparative Genomics
 * Multi-omics Integration
 ---
@@ -83,13 +71,9 @@ Collection of reproducible computational workflows for:
 
 Portable Docker-based environments for:
 
-* Bioinformatics
 * Machine Learning
-* Molecular Dynamics
-* Computational Chemistry
 * Python
 * R
-
 ---
 
 # 🛠️ Technology Stack
@@ -98,8 +82,6 @@ Portable Docker-based environments for:
 
 * Python
 * R
-* SQL
-* JavaScript
 
 ### Artificial Intelligence
 
@@ -123,22 +105,15 @@ Portable Docker-based environments for:
 * AutoDock Vina
 * OpenMM
 * GROMACS
-
 ---
 
 # 📈 Current Focus
 
 🔹 AI Agents for Scientific Research
 
-🔹 Computational Genomics
-
 🔹 Multi-omics Integration
 
 🔹 Scientific Workflow Automation
-
-🔹 Molecular Simulation
-
-🔹 Reproducible Research
 
 🔹 Open-source Scientific Software
 
@@ -156,14 +131,10 @@ My goal is to build computational tools that help researchers spend less time co
 
 I welcome collaborations involving:
 
-* Bioinformatics
 * Computational Biology
-* Genomics
 * Multi-omics
 * Scientific Software
 * Machine Learning
-* Open Source
-
 ---
 
 # 📚 Academic Profiles
@@ -212,17 +183,6 @@ http://lattes.cnpq.br/2503582131532101
 
 ---
 
-# 🌱 Always Learning
-
-* Agentic AI
-* Scientific Knowledge Graphs
-* GPU Computing
-* Foundation Models
-* Bioinformatics at Scale
-* AI-assisted Drug Discovery
-
----
-
 # 📫 Connect
 
 * 🐙 GitHub — https://github.com/luizdione
@@ -235,6 +195,6 @@ http://lattes.cnpq.br/2503582131532101
 
 ### *"Building the next generation of open scientific tools."*
 
-⭐ **If you find my work useful, consider following my profile or contributing to one of my projects.**
+⭐ **If you find my work useful, consider following my profile.**
 
 </div>
