@@ -1,240 +1,58 @@
-<div align="center">
+# Luiz Dione B. De-Melo
 
-# 🧬 Luiz Dione
+**Full Professor at the Federal Institute of Rio de Janeiro (IFRJ), Brazil.**
+Molecular biologist with a doctorate in Biophysics from UFRJ and a research background in *Trypanosoma cruzi* and *Leishmania*. I build software for diagnostics, omics analysis and research assessment, with an emphasis on results that other researchers can check.
 
-### Computational Biologist • Bioinformatician • AI Researcher • Scientific Software Engineer
+[ORCID](https://orcid.org/0000-0003-2445-9943) · [Lattes](http://lattes.cnpq.br/2503582131532101) · [Molecular Genetics Laboratory, IFRJ](https://www.ifrj-crj-geneticamolecular.online/) · [luiz.melo@ifrj.edu.br](mailto:luiz.melo@ifrj.edu.br)
 
-*Building open-source technologies for computational biology, genomics and AI-assisted scientific discovery.*
+## Research software
 
-<p>
+| Tool | What it does | Try it | License |
+|---|---|---|---|
+| [LAMPrime](https://github.com/luizdione/LAMPrime_browser-based) | Browser-based LAMP primer designer. Sequences never leave the device. | [Web app](https://www.ifrj-crj-geneticamolecular.online/aplicativos/LAMPrime/LAMPrime.html) | MIT |
+| [KANON-Index](https://github.com/luizdione/kanon-index) | Multidimensional alternative to the h-index that credits authorship structure and methodological sophistication. | [Calculator](https://www.ifrj-crj-geneticamolecular.online/kanon/html/kanon_index.html) · [Preprint](https://doi.org/10.2139/ssrn.6896838) | MIT |
+| [Docking Suite](https://github.com/luizdione/Platform_docking_suite) | Umbrella platform for antiparasitic drug discovery: protozoan and mammalian protein targets, a compound library, docking with AutoDock Vina, molecular dynamics with OpenMM and ADMET. | Source code | Non-commercial |
+| [PPI Docking](https://github.com/luizdione/Platform_ppi_docking) | Confidence funnel for protein-protein interactions: AI structure prediction, scoring, confidence gates and HADDOCK3 refinement. | Source code | Non-commercial |
+| [CoIP-MS / AP-MS Analysis](https://github.com/luizdione/Platform_Analysis_CoIP-MS-AP-MS) | Local platform (browser and Docker) for CoIP-MS and AP-MS analysis in the mouse proteome. | [Container](https://github.com/luizdione/Platform_Analysis_CoIP-MS-AP-MS/pkgs/container/platform_analysis_coip-ms-ap-ms) | Non-commercial |
+| [Platform_TBP](https://github.com/luizdione/Platform_TBP) | Surveillance of bovine parasitic diseases, combining PCR and LAMP results with climate data. | Source code | Non-commercial |
+| [Soil Analyzer](https://github.com/luizdione/Software_Soil_Analyzer) | Turns a soil lab report into a liming and fertilization plan. | [Windows app](https://github.com/luizdione/Software_Soil_Analyzer/releases/latest) | Freeware |
 
-[![ORCID](https://img.shields.io/badge/ORCID-0000--0003--2445--9943-A6CE39?style=for-the-badge\&logo=orcid)](https://orcid.org/0000-0003-2445-9943)
-[![Lattes](https://img.shields.io/badge/Lattes-CNPq-005CA9?style=for-the-badge)](http://lattes.cnpq.br/2503582131532101)
-[![GitHub followers](https://img.shields.io/github/followers/luizdione?style=for-the-badge)](https://github.com/luizdione)
-[![Profile Views](https://komarev.com/ghpvc/?username=luizdione\&style=for-the-badge)](https://github.com/luizdione)
+*Non-commercial: free for personal use and teaching; research use requires the author's prior authorization by [email](mailto:luiz.melo@ifrj.edu.br); commercial use is not permitted. See each repository's `LICENSE`.*
 
-</p>
+## Independent software
 
-</div>
+Personal projects, developed without institutional affiliation.
 
----
+| Tool | What it does | Try it | License |
+|---|---|---|---|
+| [LILO](https://github.com/luizdione/Platform_LILO_IA) | Fully local research assistant: Ollama, Open WebUI and an MCP tool bridge. | [Installer](https://github.com/luizdione/Platform_LILO_IA/releases/latest) | Non-commercial |
+| [CEM](https://github.com/luizdione/Platform_CEM) | Backup, restore and migration of Claude Code environments. | [Installer](https://github.com/luizdione/Platform_CEM/releases/latest) | Non-commercial |
 
-# 👨‍🔬 About Me
+## What I work on
 
-I am a Brazilian researcher and software developer passionate about building computational tools that accelerate biological discovery.
+- Computational biology and multi-omics integration
+- Molecular parasitology and host-parasite interaction (*Trypanosoma cruzi*, *Leishmania*)
+- Molecular diagnostics
+- Protein interactions and molecular docking
+- Livestock genomics
+- Scientometrics and research assessment
+- AI agents for research, and reproducible open-source scientific software
 
-My work lies at the intersection of **Bioinformatics**, **Artificial Intelligence**, **Computational Biology**, and **Scientific Software Engineering**. I design reproducible workflows, develop open-source applications, and explore how intelligent agents can transform scientific research.
+**Languages:** Python, R
+**Omics:** Nextflow, Snakemake, SAMtools, BCFtools, BEDTools, deepTools, HOMER, Bioconductor, SRA Toolkit
+**Structure:** AutoDock Vina, OpenMM, GROMACS, Boltz, HADDOCK3
+**Infrastructure and AI:** Docker, PyTorch, Ollama
 
-I believe the next generation of biological discoveries will emerge from the integration of data, automation, artificial intelligence, and collaborative open science.
+## Selected publications
 
----
+- [The KANON-Index: Crediting Authorship Structure and Methodological Sophistication in Research Assessment](https://doi.org/10.2139/ssrn.6896838). Preprint, 2026.
+- [Functional studies of TcRjl, a novel GTPase of *Trypanosoma cruzi*, reveals phenotypes related with MAPK activation during parasite differentiation and after heterologous expression in *Drosophila* model system](https://doi.org/10.1016/j.bbrc.2015.09.110). *Biochemical and Biophysical Research Communications*, 2015.
+- [Novel role for the double-stranded RNA-activated protein kinase PKR: Modulation of macrophage infection by the protozoan parasite *Leishmania*](https://doi.org/10.1096/fj.09-140053). *FASEB Journal*, 2010.
+- [Intranasal delivery of naked DNA encoding the LACK antigen leads to protective immunity against visceral leishmaniasis in mice](https://doi.org/10.1016/j.vaccine.2006.11.060). *Vaccine*, 2007.
+- [TcRho1, a farnesylated Rho family homologue from *Trypanosoma cruzi*: cloning, trans-splicing, and prenylation studies](https://doi.org/10.1074/jbc.M102920200). *Journal of Biological Chemistry*, 2001.
 
-# 🔬 Research Areas
+Full list on [ORCID](https://orcid.org/0000-0003-2445-9943).
 
-* 🧬 Computational Biology
-* 🧬 Functional Genomics/Epigenetics
-* 🧬 Multi-omics Integration
-* 🧬 Comparative Genomics
-* 🧬 Variant Discovery
-* 🦠 *Trypanosoma cruzi*
-* 🐄 Livestock Genomics
-* 🌡️ Thermotolerance Genetics
-* 🧪 Molecular Docking
-* ⚛️ Molecular Dynamics
-* 🤖 Artificial Intelligence for Science
-* 🧠 Large Language Models
-* 📊 Data Science
-* 🌍 Open Science
+## Collaboration
 
----
-
-# 🚀 Featured Projects
-
-## 🧠 Claude Environment Manager (CEM)
-
-An open-source environment manager for Claude Desktop focused on persistent project memory, automation, reproducible workflows and AI-assisted software development.
----
-
-## 🤖 Scientific AI Agents
-
-Development of autonomous AI agents capable of assisting researchers with:
-
-* Literature review
-* Experimental planning
-* Programming
-* Bioinformatics analyses
-* Scientific writing
-* Workflow automation
----
-
-## 🧬 Bioinformatics Pipelines
-
-Collection of reproducible computational workflows for:
-
-* Whole Genome Sequencing
-* RNA-seq
-* DNA Methylation
-* Functional Annotation
-* Comparative Genomics
-* Multi-omics Integration
----
-
-## 🐳 Scientific Computing Ecosystem
-
-Portable Docker-based environments for:
-
-* Bioinformatics
-* Machine Learning
-* Molecular Dynamics
-* Computational Chemistry
-* Python
-* R
-
----
-
-# 🛠️ Technology Stack
-
-### Programming
-
-* Python
-* R
-* SQL
-* JavaScript
-
-### Artificial Intelligence
-
-* PyTorch
-* Ollama
-
-### Bioinformatics
-
-* SAMtools
-* BCFtools
-* BEDTools
-* deepTools
-* HOMER
-* Bioconductor
-* SRA Toolkit
-* Nextflow
-* Snakemake
-
-### Molecular Modeling
-
-* AutoDock Vina
-* OpenMM
-* GROMACS
-
----
-
-# 📈 Current Focus
-
-🔹 AI Agents for Scientific Research
-
-🔹 Computational Genomics
-
-🔹 Multi-omics Integration
-
-🔹 Scientific Workflow Automation
-
-🔹 Molecular Simulation
-
-🔹 Reproducible Research
-
-🔹 Open-source Scientific Software
-
----
-
-# 🌍 Research Philosophy
-
-> **Science advances faster when knowledge is open, reproducible, collaborative and accessible.**
-
-My goal is to build computational tools that help researchers spend less time configuring software and more time making discoveries.
-
----
-
-# 🤝 Collaboration
-
-I welcome collaborations involving:
-
-* Bioinformatics
-* Computational Biology
-* Genomics
-* Multi-omics
-* Scientific Software
-* Machine Learning
-* Open Source
-
----
-
-# 📚 Academic Profiles
-
-### ORCID
-
-https://orcid.org/0000-0003-2445-9943
-
-### Lattes
-
-http://lattes.cnpq.br/2503582131532101
-
----
-
-# 📊 GitHub Analytics
-
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=luizdione&show_icons=true&include_all_commits=true&count_private=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizdione&layout=compact"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=luizdione"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=luizdione"/>
-
-</p>
-
----
-
-# 🏆 GitHub Achievements
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=luizdione&theme=algolia&margin-w=10&margin-h=10"/>
-
-</p>
-
----
-
-# 🌱 Always Learning
-
-* Agentic AI
-* Scientific Knowledge Graphs
-* GPU Computing
-* Foundation Models
-* Bioinformatics at Scale
-* AI-assisted Drug Discovery
-
----
-
-# 📫 Connect
-
-* 🐙 GitHub — https://github.com/luizdione
-* 🧬 ORCID — https://orcid.org/0000-0003-2445-9943
-* 📄 Lattes — http://lattes.cnpq.br/2503582131532101
-
----
-
-<div align="center">
-
-### *"Building the next generation of open scientific tools."*
-
-⭐ **If you find my work useful, consider following my profile or contributing to one of my projects.**
-
-</div>
+I welcome collaborations in molecular parasitology, diagnostics, omics analysis and research software. The best way to reach me is by [email](mailto:luiz.melo@ifrj.edu.br).
