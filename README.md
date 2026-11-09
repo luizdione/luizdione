@@ -11,7 +11,7 @@ Molecular biologist with a doctorate in Biophysics from UFRJ and a research back
 |---|---|---|---|
 | [LAMPrime](https://github.com/luizdione/LAMPrime_browser-based) | Browser-based LAMP primer designer. Sequences never leave the device. | [Web app](https://www.ifrj-crj-geneticamolecular.online/aplicativos/LAMPrime/LAMPrime.html) | MIT |
 | [KANON-Index](https://github.com/luizdione/kanon-index) | Multidimensional alternative to the h-index that credits authorship structure and methodological sophistication. | [Calculator](https://www.ifrj-crj-geneticamolecular.online/kanon/html/kanon_index.html) · [Preprint](https://doi.org/10.2139/ssrn.6896838) | MIT |
-| [Docking Suite](https://github.com/luizdione/Platform_docking_suite) | Umbrella platform for antiparasitic drug discovery: protozoan and mammalian protein targets, a compound library, docking with AutoDock Vina, molecular dynamics with OpenMM and ADMET. | Source code | Non-commercial |
+| [Docking Suite](https://github.com/luizdione/Platform_docking_suite) | Umbrella platform for antiparasitic drug discovery: protozoan and mammalian protein targets, a compound library, docking with AutoDock Vina, molecular dynamics with OpenMM and ADMET. | [Container](https://github.com/luizdione/Platform_docking_suite/pkgs/container/platform_docking_suite) | Non-commercial |
 | [PPI Docking](https://github.com/luizdione/Platform_ppi_docking) | Confidence funnel for protein-protein interactions: AI structure prediction, scoring, confidence gates and HADDOCK3 refinement. | [HADDOCK3 engine image](https://github.com/luizdione/Platform_ppi_docking/pkgs/container/ppi-haddock3) | Non-commercial |
 | [CoIP-MS / AP-MS Analysis](https://github.com/luizdione/Platform_Analysis_CoIP-MS-AP-MS) | Local platform (browser and Docker) for CoIP-MS and AP-MS analysis in the mouse proteome. | [Container](https://github.com/luizdione/Platform_Analysis_CoIP-MS-AP-MS/pkgs/container/platform_analysis_coip-ms-ap-ms) · [DOI](https://doi.org/10.5281/zenodo.24063134) | Non-commercial |
 | [Platform_TBP](https://github.com/luizdione/Platform_TBP) | Surveillance of bovine parasitic diseases, combining PCR and LAMP results with climate data. | Source code | Non-commercial |
@@ -24,12 +24,14 @@ Molecular biologist with a doctorate in Biophysics from UFRJ and a research back
 Published to the GitHub Container Registry, built by GitHub Actions from the public source.
 
 ```bash
+docker pull ghcr.io/luizdione/platform_docking_suite:latest
 docker pull ghcr.io/luizdione/platform_analysis_coip-ms-ap-ms:latest
 docker pull ghcr.io/luizdione/ppi-haddock3:latest
 ```
 
-The second one is the HADDOCK3 refinement engine that the PPI Docking funnel calls; point
-`PPI_DOCK_HADDOCK_IMAGE` at it. Each image carries only code and configuration — no research data.
+The last one is the HADDOCK3 refinement engine that the PPI Docking funnel calls; point
+`PPI_DOCK_HADDOCK_IMAGE` at it. Each image carries only code and configuration — no research
+data — and is built from a git tag, so a version tag always maps to one commit.
 
 ## Independent software
 
