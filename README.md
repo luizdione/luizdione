@@ -11,8 +11,8 @@ Molecular biologist with a doctorate in Biophysics from UFRJ and a research back
 |---|---|---|---|
 | [LAMPrime](https://github.com/luizdione/LAMPrime_browser-based) | Browser-based LAMP primer designer. Sequences never leave the device. | [Web app](https://www.ifrj-crj-geneticamolecular.online/aplicativos/LAMPrime/LAMPrime.html) | MIT |
 | [KANON-Index](https://github.com/luizdione/kanon-index) | Multidimensional alternative to the h-index that credits authorship structure and methodological sophistication. | [Calculator](https://www.ifrj-crj-geneticamolecular.online/kanon/html/kanon_index.html) · [Preprint](https://doi.org/10.2139/ssrn.6896838) | MIT |
-| [Docking Suite](https://github.com/luizdione/Platform_docking_suite) | Umbrella platform for antiparasitic drug discovery: protozoan and mammalian protein targets, a compound library, docking with AutoDock Vina, molecular dynamics with OpenMM and ADMET. | [Container](https://github.com/luizdione/Platform_docking_suite/pkgs/container/platform_docking_suite) | Non-commercial |
-| [PPI Docking](https://github.com/luizdione/Platform_ppi_docking) | Confidence funnel for protein-protein interactions: AI structure prediction, scoring, confidence gates and HADDOCK3 refinement. | [HADDOCK3 engine image](https://github.com/luizdione/Platform_ppi_docking/pkgs/container/ppi-haddock3) | Non-commercial |
+| [Platform Ptn-Ptn & Ptn–Ligand Docking](https://github.com/luizdione/Platform_Ptn-Ptn_Ptn-Ligand_Docking) | Unified umbrella platform combining protein–ligand screening (AutoDock Vina, OpenMM MD, Boltz-2, ADMET, drug design) and a two-gate protein–protein confidence funnel (Boltz-2 scoring/ipSAE, HADDOCK3 refinement, CAPRI DockQ). | [Install & Docker Compose](https://github.com/luizdione/Platform_Ptn-Ptn_Ptn-Ligand_Docking#quick-start-docker) | Non-commercial |
+| [Platform Multiomics](https://github.com/luizdione/Platform_multiomics) | Unified local multi-omics platform (genomics, epigenomics, transcriptomics, and ML) with Docker workers, provenance seals and classroom mode. | [Quick start](https://github.com/luizdione/Platform_multiomics#readme) | Non-commercial |
 | [CoIP-MS / AP-MS Analysis](https://github.com/luizdione/Platform_Analysis_CoIP-MS-AP-MS) | Local platform (browser and Docker) for CoIP-MS and AP-MS analysis in the mouse proteome. | [Container](https://github.com/luizdione/Platform_Analysis_CoIP-MS-AP-MS/pkgs/container/platform_analysis_coip-ms-ap-ms) · [DOI](https://doi.org/10.5281/zenodo.24063134) | Non-commercial |
 | [Platform_TBP](https://github.com/luizdione/Platform_TBP) | Surveillance of bovine parasitic diseases, combining PCR and LAMP results with climate data. | Source code | Non-commercial |
 | [Soil Analyzer](https://github.com/luizdione/Software_Soil_Analyzer) | Turns a soil lab report into a liming and fertilization plan. | [Windows app](https://github.com/luizdione/Software_Soil_Analyzer/releases/latest) | Freeware |
@@ -21,17 +21,15 @@ Molecular biologist with a doctorate in Biophysics from UFRJ and a research back
 
 ### Container images
 
-Published to the GitHub Container Registry, built by GitHub Actions from the public source.
+Published to the GitHub Container Registry, built by GitHub Actions.
 
 ```bash
 docker pull ghcr.io/luizdione/platform_docking_suite:latest
-docker pull ghcr.io/luizdione/platform_analysis_coip-ms-ap-ms:latest
 docker pull ghcr.io/luizdione/ppi-haddock3:latest
+docker pull ghcr.io/luizdione/platform_analysis_coip-ms-ap-ms:latest
 ```
 
-The last one is the HADDOCK3 refinement engine that the PPI Docking funnel calls; point
-`PPI_DOCK_HADDOCK_IMAGE` at it. Each image carries only code and configuration — no research
-data — and is built from a git tag, so a version tag always maps to one commit.
+The first two images power [Platform Ptn-Ptn & Ptn–Ligand Docking](https://github.com/luizdione/Platform_Ptn-Ptn_Ptn-Ligand_Docking) (protein–ligand module and HADDOCK3 PPI refinement engine). Each image carries only code and configuration — no research data — and is built from a git tag, so a version tag always maps to one commit.
 
 ## Independent software
 
